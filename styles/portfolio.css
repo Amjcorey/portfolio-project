@@ -4,10 +4,12 @@ body {
 
 h1 {
   font-family: "Playfair Display", serif;
+  font-weight: bold;
   background-color: teal;
 }
 
-h2 {
+p {
   font-family: "Noto Sans", sans-serif;
+  font-weight: normal;
   background-color: turquoise;
 }
