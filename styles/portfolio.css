@@ -1,0 +1,13 @@
+body {
+  background-color: azure;
+}
+
+h1 {
+  font-family: "Playfair Display", serif;
+  background-color: teal;
+}
+
+h2 {
+  font-family: "Noto Sans", sans-serif;
+  background-color: turquoise;
+}
