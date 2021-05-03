@@ -1,15 +1,43 @@
-body {
-  background-color: azure;
-}
-
 h1 {
+  color: black;
   font-family: "Playfair Display", serif;
   font-weight: bold;
-  background-color: teal;
+  font-size: 64px;
 }
 
-p {
+h2,
+h3,
+h4,
+h5,
+h6 {
   font-family: "Noto Sans", sans-serif;
+}
+
+.header {
+  background-color: #bfdee1;
+  text-align: center;
+  padding: 160px 20px;
+}
+
+.header h2 {
+  font-family: "Noto Sans", sans-serif;
+  font-weight: bold;
+  font-size: 36px;
+}
+.header h3 {
+  color: #272142;
+  font-family: "Noto Sans", sans-serif;
+  font-size: 24px;
   font-weight: normal;
-  background-color: turquoise;
+  line-height: 140%;
+  margin: 0;
+  opacity: 0.5;
+}
+
+.btn-branding {
+  background-color: #fcb680;
+  border-radius: 4px;
+  color: white;
+  line-height: 27px;
+  padding: 15px 30px;
 }
