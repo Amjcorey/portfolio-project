@@ -60,11 +60,35 @@ p {
   opacity: 0.5;
 }
 
+.about-section-content {
+  margin: 30px;
+}
+
+.about-section {
+  padding: 160px 20px;
+}
+
 .about-section h1 {
-  color: black;
   font-family: var(--heading-font-family);
-  font-weight: bold;
+  line-height: 80px;
   font-size: 64px;
+}
+
+.about-section h2 {
+  font-family: var(--default-font-family);
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.about-section p {
+  font-family: var(--default-font-family);
+  font-size: 16px;
+  font-weight: normal;
+  line-height: 1.5;
+}
+
+.about-section img {
+  border-radius: 20px;
 }
 
 .btn-branding {
