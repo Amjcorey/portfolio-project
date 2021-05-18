@@ -80,15 +80,17 @@ p {
   font-family: var(--default-font-family);
   font-size: 24px;
   font-weight: bold;
+  line-height: 1.5;
+  margin: 20px 0 0;
 }
 
 .content h4 {
-  font-size: 18px;
+  font-size: 14px;
 }
 
-.content-container p {
+.content p {
   font-family: var(--default-font-family);
-  font-size: 16px;
+  font-size: 14px;
   font-weight: normal;
   line-height: 30px;
 }
