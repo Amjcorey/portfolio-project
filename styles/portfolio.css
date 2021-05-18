@@ -75,7 +75,6 @@ p {
 .content h2 {
   font-family: var(--default-font-family);
   font-size: 18px;
-  font-weight: bold;
 }
 
 .content h3 {
