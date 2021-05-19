@@ -16,20 +16,17 @@ h4,
 h5,
 h6 {
   color: black;
-  font-family: var(--default-font-family);
+  font-family: var(--heading-font-family);
   font-weight: bold;
 }
 
 h2 {
   font-size: 64;
-  font-family: var(--default-font-family);
 }
 
 p {
   font-family: var(--default-font-family);
-  color: 272142;
   font-size: 16px;
-  font-weight: normal;
   line-height: 1.5;
 }
 
@@ -41,13 +38,19 @@ p {
 
 .header h1 {
   color: black;
-  font-family: var(--heading-font-family);
   font-weight: bold;
   font-size: 96px;
 }
 
+.header p {
+  font-size: 36px;
+  font-weight: bold;
+  margin: 0;
+  color: #272142;
+}
+
 .header h2 {
-  font-family: var(--default-font-family);
+  font-family: var(--heading-font-family);
   font-weight: bold;
   font-size: 36px;
 }
@@ -110,13 +113,12 @@ p {
   padding: 15px 30px;
 }
 
-.gridcontainer h2 {
-  font-family: var(--heading-font-family);
-  font-size: 64px;
-}
-
 .project-description {
   padding: 120px 60px;
+}
+
+.logo {
+  max-height: 40px;
 }
 
 nav {
@@ -142,7 +144,8 @@ nav a {
   transition: all 100ms ease-in-out;
 }
 
-nav a:hover {
+nav a:hover,
+nav li.active a {
   color: var(--branding-color);
 }
 
@@ -158,6 +161,11 @@ nav a:hover {
 
   .header {
     padding: 80px 10px;
+  }
+
+  .content {
+    text-align: center;
+    padding: 0;
   }
 
   .project-description {
