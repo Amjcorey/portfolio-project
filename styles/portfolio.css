@@ -1,5 +1,5 @@
 :root {
-  --branding-color: #fcb680;
+  --branding-color: #ed9450;
   --secondary-color: #bfdee1;
   --heading-font-family: "Playfair Display", serif;
   --default-font-family: "Noto Sans", sans-serif;
@@ -160,7 +160,7 @@ nav a {
 
 nav a:hover,
 nav li.active a {
-  color: var(--branding-color);
+  color: white;
 }
 
 footer {
