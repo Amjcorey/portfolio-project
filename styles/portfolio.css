@@ -125,17 +125,24 @@ p {
   padding: 120px 60px;
 }
 
-.logo {
-  max-height: 40px;
+.portrait {
+  border-radius: 20px;
+  height: 300px;
+  margin-left: 60px;
+}
+
+.nav-bar {
+  margin: 0 auto;
 }
 
 nav {
+  background-color: var(--secondary-color);
   padding: 20px 0;
 }
 
 nav ul {
   padding: 0;
-  margin: 0;
+  margin: 0 75px 0 0;
 }
 
 nav li {
